@@ -21,7 +21,7 @@ There is a plenty of docker images out there. You can use an Ubuntu:22.04 image 
 
 You can access the paths on the host file system from inside the docker container by using bind mounts.
 
-# Walkthrough
+# Exercise
 
 1. Create a non-root user on a host machine. Give it a password. Make sure that the user can use docker (add him to a docker group). Switch to that user.
 
@@ -29,7 +29,7 @@ You can access the paths on the host file system from inside the docker containe
 
 3. Insider the container, modify `sudoers` on the host file system to allow your non-privileged user invoke `sudo` action without password.
 
-4. Exit the container and validate that your previously non-privileged user is now a sudoer without a password.
+4. Exit the container and validate that your previously non-privileged user is now a sudoer without a password. Congratulatons with a nice privilege escalation attack!
 
 # Appendix A: Helper commands
 
