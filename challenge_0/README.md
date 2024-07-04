@@ -47,3 +47,4 @@ See https://kubernetes.io/docs/concepts/ for more.
 
 2. The easiest way to get started is to deploy a local Kubernetes cluster using `minikube`. Install minikube: https://minikube.sigs.k8s.io/docs/start/
 
+Naviate to challenge_1 to continue...
