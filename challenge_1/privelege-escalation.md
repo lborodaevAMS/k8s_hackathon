@@ -26,7 +26,7 @@ You can access the paths on the host file system from inside the docker containe
 
 1. Create a non-root user on a host machine. Give it a password. Make sure that the user can use docker (add him to a docker group). Switch to that user.
 
-2. As of now, you don't have access to sudo on your host machine unless you know the sudo password. Let's chagne that. Pick any image you like and run bash in it. Think how you can access sensitive files on the host filesystem from inside the container.
+2. As of now, you don't have access to sudo on your host machine unless you know the sudo password. Let's chagne that. Pick any Ubuntu image that you like and run bash in it. Think how you can access sensitive files on the host filesystem from inside the container.
 
 3. Insider the container, modify `sudoers` on the host file system to allow your non-privileged user invoke `sudo` action without password.
 
